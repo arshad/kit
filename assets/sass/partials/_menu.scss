@@ -1,0 +1,35 @@
+// Menu
+// Styles for Menus and Navs
+// --------------------------------------------------
+
+// Navbar Menu
+// --------------------------------------------------
+.navbar {
+  .navbar-inner {
+    ul.nav {
+      margin: 30px 10px 35px 0;
+      > li {
+        > a {
+          background: none;
+          text-transform: uppercase;
+          @include box-shadow(none);
+          &.active {
+            color: $white;
+            &:hover, &:focus {
+              background: none;
+              @include box-shadow(none);
+            }
+          }
+        }
+        &.dropdown {
+          &.open {
+            > a {
+              background: none;
+              color: $white;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -13,7 +13,7 @@
     <script src="scripts/vendor/modernizr.min.js"></script>
   </head>
   <body>
-  <div class="navbar navbar-inverse">
+  <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
       <div class="container">
         <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -21,7 +21,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="brand" href="#">White</a>
+        <a class="brand" href="#">Project Name</a>
         <div class="nav-collapse">
           <ul class="nav pull-right">
             <li class="active active-trail"><a href="#" class="active">Home</a></li>
@@ -52,22 +52,6 @@
   </header>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
-  
-  <!-- build:js scripts/plugins.js -->
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-affix.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-alert.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-dropdown.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-tooltip.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-modal.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-transition.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-button.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-popover.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-typeahead.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-carousel.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-scrollspy.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-collapse.js"></script>
-  <script src="assets/javascripts/vendor/bootstrap/bootstrap-tab.js"></script>
-  <!-- endbuild -->
+  <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>

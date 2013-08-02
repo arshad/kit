@@ -19,18 +19,14 @@ $white:                 #fff !default;
 
 // Accent colors
 // -------------------------
-$blue:                  #3498db !default;
-$blueDark:              #2980b9 !default;
-$green:                 #1ABC9C !default;
-$greenDark:             #34495E !default;
+$blue:                  #049cdb !default;
+$blueDark:              #0064cd !default;
+$green:                 #46a546 !default;
 $red:                   #9d261d !default;
 $yellow:                #ffc40d !default;
 $orange:                #f89406 !default;
 $pink:                  #c3325f !default;
-$purple:                #9b59b6 !default;
-$purpleDark:            #8e44ad !default;
-$asphalt:               #2c3e50 !default;
-$asphaltDark:           #34495e !default;
+$purple:                #7a43b6 !default;
 
 
 // Scaffolding
@@ -41,7 +37,7 @@ $textColor:             $grayDark !default;
 
 // Links
 // -------------------------
-$linkColor:             $blueDark !default;
+$linkColor:             #08c !default;
 $linkColorHover:        darken($linkColor, 15%) !default;
 
 
